@@ -1,21 +1,121 @@
 <!DOCTYPE html>
-<html lang="ar">
-  <head>
-    <meta charset="utf-8">
-    <title>أجير</title>
-  </head>
-<body style="text-align: center;background: radial-gradient(#607D8B, #2d789cc2);color: white;font-size: 50px;height: 1px;">
-    <br>
-    <h1>أجير</h1>
-    <h1>www.ajeer.sa</h1>
-    <br>
-    <p style="
-    background: white;
-    margin: 0 150px;
-    border-radius: 20px;
-    padding-bottom: 5px;
-"><a href="mailto:info@ajeer.sa" style="
-    text-decoration: none;
-">info@ajeer.sa</a></p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajeer | Welcome</title>
+    <style>
+        /* Import Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+        /* Reset some default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            animation: slideInFromTop 1s ease-out;
+        }
+
+        p {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        a {
+            color: #00ffea;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #ffdf00;
+            border-bottom: 2px solid #ffdf00;
+        }
+
+        .email {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        /* Button decoration */
+        a.button {
+            background-color: #ffdf00;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-transform: uppercase;
+            font-size: 1.2em;
+            transition: transform 0.3s ease;
+            display: inline-block;
+        }
+
+        a.button:hover {
+            transform: scale(1.1);
+            background-color: #00ffea;
+            color: #333;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInFromTop {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Ajeer | أجير</h1>
+	<h3>www.ajeer.sa</h3>
+        <a href="mailto:info@ajeer.sa">info@ajeer.sa</a>
+    </div>
+
 </body>
 </html>
